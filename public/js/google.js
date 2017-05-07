@@ -2,7 +2,7 @@ class Google {
 	constructor() {
 		this._url = "";
 		this._token = "";
-		this._config = { source: "en", target: "ko" };
+		this._config = {source: "ko", target: "en"};
 	}
 
 	token() {

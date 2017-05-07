@@ -2,6 +2,7 @@
 	<div id="speech" class="section speech">
 		<div class="spinner"></div>
 		<div class="message" if="{ !source }">Now You Speak!</div>
+		<button class="btn-speech" onclick={ parent.speech }>Speech!</button>
 		<div class="message">{ source }</div>
 		<div class="message">{ target }</div>
 	</div>
@@ -19,6 +20,12 @@
 			font-size:30px;
 			color: #fff;
 			text-align: center;
+		}
+
+		.btn-speech {
+			margin: 0 auto;
+			display: block;
+			background: #fff;
 		}
 
 		.spinner {
